@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<title>Bagel Gourmet Redesign</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+    height: 100%;
+    color: #777;
+    line-height: 1.8;
+}
+
+h1{
+	color: black;
+	font-size: 4em;
+	line-height: 1.2;
+}
+h2,h3,h4{
+	text-align: center;
+}
+p {
+	text-align: justify;
+}
+.small {
+	margin-left: 10em;
+	margin-right: 10em;
+}
+em {
+	font-size: 1.5em;
+}
+b{
+	color: black;
+}
+.w3-center {
+	margin-top: 0em;
+	margin-bottom: 0em;
+}
+
+.w3-wide {letter-spacing: 10px;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-width: 1024px) {
+    .small {
+    	margin-left: 0em;
+		margin-right: 0em;
+    }
+}
+</style>
+<body>
+
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64">
+<div class="w3-content w3-container w3-padding-64" style="background-color: #EBEBEB;">
+  <h1 class="w3-center pop">USABILITY REDESIGN</h1>
+  <p class="w3-center pop"><h3>Beautifying and simplifying Bagel Gourmet Cafe's Website</h3></p>
+ </div>
+  <br>
+  <h2 class="pop">
+  The Problem
+  </h2>
+  <p class="small pop">Bagel Gourmet Cafe is a very popular estabilishment servicing the local East Providence community's bagel needs. It's family owned and operated, and has been in business forever. However, its website is currently <b>cluttered</b>, <b>unintuitive</b>, and looks like it <b>hasn't been updated</b> since the <b>mid-nineties</b>. It was in serious need of a full redesign.</p>
+  <div class="w3-row pop">
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <img src="oldhome.png" class="w3-round w3-image " alt="oldhome" width="500" height="333">
+    </div>
+
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <img src="oldmenu.png" class="w3-round w3-image " alt="oldhome" width="500" height="333">
+    </div>
+    
+  </div>
+  <br>
+  <div class="w3-content w3-container" style="background-color: #EBEBEB;">
+  <h2 class="pop">
+  The Research
+  </h2>
+  <p class="small pop">I posted an original design of this project <a href="https://www.reddit.com/r/design_critiques/comments/7ijoga/bagel_gourmet_website_redesign/"><b>here</b></a>, and got a lot of feedback about what users wanted. Originally, I had a home, contact, location, and photo pages, but I learned that these could all be combined into one to reduce number of clicks. I also learned that left justified text is nice and the font looks outdated. I used this information to improve my design.</p>
+  </div>
+  <br>
+  <h2 class="pop">
+  The Solution
+  </h2>
+<p class="small pop">The redesign consisted of creating simple <b>wireframes</b> for the two key screens: the <b>home</b> and <b>menu</b> pages. I reformatted the website to be continuously scrolling, so the entire website loads as one full page and the navigation bar links scroll to different parts of the page.</p>
+  <div class="w3-row pop">
+    <div class="w3-col m6 w3-padding-large">
+      <h4>The Homepage</h4>
+      <p>I simplified the homepage by eliminating unnecessary clutter. I created a header with useful information, like address and telephone number. The navigation bar is now on the top and quite clear and easy to use, and the homepage contains a small introduciton to the cafe and an image.</p>
+    </div>
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <img src="home1.png" class="w3-round w3-image " alt="Photo of Me" width="500" height="333">
+    </div>
+  </div>
+  <br>
+ <div class="w3-row pop">
+<div class="w3-col m6 w3-padding-large">
+      <h4>The Menu</h4>
+      <p>On the original website, the menu page was hard to navigate beacuse it was poorly formatted and extremely long. I fixed this here by trying to condense information without making it look cluttered, and keeping everything in two columns all the way down the page. That way, it wasn't as long and seemed more organized.</p>
+    </div>
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <img src="menu1.png" class="w3-round w3-image " alt="Photo of Me" width="500" height="333">
+    </div>
+  </div>
+  <br>
+  <div class="w3-content w3-container" style="background-color: #EBEBEB;">
+  <h2 class="pop">Conclusion and Feedback</h2>
+<p class="small pop">Any and all critiques welcomed! Please submit all feedback <a href="https://docs.google.com/forms/d/e/1FAIpQLSexQc8WH3Jd8tT6Sh5duEwYR_lYw0ime8ZxGH9jC2wWeacTUA/viewform?usp=sf_link"><b>here</b></a>. I'd love to know what you think so I can continue to improve my project. I learned that the iterative design process is crucial to creating a good website, and getting constant feedback from others is essential throughout every step of the process. I also think that the  <a href="reddit.com/r/design_critiques"><b>reddit design critiques community</b></a> is really great and helpful for assisting me in becoming better at user design! I hope to create more, even better projects like this in the future.</p>
+</div>
+<br>
+<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+<script >
+	window.sr = ScrollReveal();
+	sr.reveal('.pop');
+</script>
+</body>
+</html>
+
+
